@@ -1,11 +1,11 @@
-// Generated for the Shockwave client version 116 from the Sulek API (https://sulek.dev/).
+// Generated for the Shockwave client version 131 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Shockwave;
 
 /// <summary>
-/// Generated for the Shockwave client version 116 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Shockwave client version 131 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class In {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -75,6 +75,7 @@ public static class In {
     public static readonly Identifier EMAIL_APPROVED = _();
     public static readonly Identifier EMAIL_REJECTED = _();
     public static readonly Identifier END_CRYPTO = _();
+    public static readonly Identifier END_FISHING = _();
     public static readonly Identifier ENTER_ARENA = _();
     public static readonly Identifier ENTER_ARENA_FAILED = _();
     public static readonly Identifier EPSNOTIFY = _();
@@ -82,6 +83,12 @@ public static class In {
     public static readonly Identifier FAILURE = _();
     public static readonly Identifier FAVOURITEROOMRESULTS = _();
     public static readonly Identifier FIGURE_CHANGE = _();
+    public static readonly Identifier FISHING_CHAT = _();
+    public static readonly Identifier FISHING_ROD_LEVEL = _();
+    public static readonly Identifier FISHING_STATS = _();
+    public static readonly Identifier FISHING_STATUS = _();
+    public static readonly Identifier FISHING_STORE_PRODUCTS = _();
+    public static readonly Identifier FISH_TOKENS = _();
     public static readonly Identifier FLATCAT = _();
     public static readonly Identifier FLATINFO = _();
     public static readonly Identifier FLATNOTALLOWEDTOENTER = _();
@@ -223,6 +230,7 @@ public static class In {
     public static readonly Identifier STAGE_STILL_LOADING = _();
     public static readonly Identifier STAMP_BALANCE = _();
     public static readonly Identifier START_FAILED = _();
+    public static readonly Identifier START_FISHING = _();
     public static readonly Identifier START_RECYCLING_RESULT = _();
     public static readonly Identifier STATUS = _();
     public static readonly Identifier STRIPINFO = _();

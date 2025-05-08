@@ -1,11 +1,11 @@
-// Generated for the Shockwave client version 116 from the Sulek API (https://sulek.dev/).
+// Generated for the Shockwave client version 131 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Shockwave;
 
 /// <summary>
-/// Generated for the Shockwave client version 116 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Shockwave client version 131 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class Out {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -28,9 +28,9 @@ public static class Out {
     public static readonly Identifier ASSIGNRIGHTS = _();
     public static readonly Identifier BTCKS = _();
     public static readonly Identifier BURN_SONG = _();
+    public static readonly Identifier BUY_CART_ITEMS = _();
     public static readonly Identifier CARRYDRINK = _();
     public static readonly Identifier CARRYITEM = _();
-    public static readonly Identifier CHANGESHRT = _();
     public static readonly Identifier CHANGEWORLD = _();
     public static readonly Identifier CHAT = _();
     public static readonly Identifier CLAIM_COMMUNITY_GOAL_REWARD = _();
@@ -53,6 +53,7 @@ public static class Out {
     public static readonly Identifier EDIT_SONG = _();
     public static readonly Identifier EJECT_SOUND_PACKAGE = _();
     public static readonly Identifier ENTER_ONEWAY_DOOR = _();
+    public static readonly Identifier FHM = _();
     public static readonly Identifier FLATPROPBYITEM = _();
     public static readonly Identifier FOLLOW_FRIEND = _();
     public static readonly Identifier FRIENDLIST_ACCEPTFRIEND = _();
@@ -92,6 +93,10 @@ public static class Out {
     public static readonly Identifier GET_COMMUNITY_CHALLENGE_PROGRESS = _();
     public static readonly Identifier GET_CREDITS = _();
     public static readonly Identifier GET_DAILY_TASKS = _();
+    public static readonly Identifier GET_FISHING_PRODUCTS = _();
+    public static readonly Identifier GET_FISHING_ROD_LEVEL = _();
+    public static readonly Identifier GET_FISHING_STATS = _();
+    public static readonly Identifier GET_FISH_TOKENS = _();
     public static readonly Identifier GET_FURNI_RECYCLER_CONFIGURATION = _();
     public static readonly Identifier GET_FURNI_RECYCLER_STATUS = _();
     public static readonly Identifier GET_FURNI_REVISIONS = _();
@@ -176,6 +181,7 @@ public static class Out {
     public static readonly Identifier NEW_SONG = _();
     public static readonly Identifier OBSERVEINSTANCE = _();
     public static readonly Identifier PARENT_EMAIL_REQUIRED = _();
+    public static readonly Identifier PICK_ALL = _();
     public static readonly Identifier PICK_CRYFORHELP = _();
     public static readonly Identifier PLACEITEM = _();
     public static readonly Identifier PLACESTUFF = _();
@@ -187,6 +193,7 @@ public static class Out {
     public static readonly Identifier PTM = _();
     public static readonly Identifier PURCHASE_AND_WEAR = _();
     public static readonly Identifier PURCHASE_CLOTHING = _();
+    public static readonly Identifier PURCHASE_FISHING_PRODUCT = _();
     public static readonly Identifier PURCHASE_FROM_CATALOG = _();
     public static readonly Identifier QUIT = _();
     public static readonly Identifier REDEEM_VOUCHER = _();
@@ -222,6 +229,7 @@ public static class Out {
     public static readonly Identifier SONG_EDIT_CLOSE = _();
     public static readonly Identifier SPLASH_POSITION = _();
     public static readonly Identifier SRCHF = _();
+    public static readonly Identifier STARTFISHING = _();
     public static readonly Identifier STARTGAME = _();
     public static readonly Identifier START_FURNI_RECYCLING = _();
     public static readonly Identifier STOP = _();

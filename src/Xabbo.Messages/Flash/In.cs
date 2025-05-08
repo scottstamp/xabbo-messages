@@ -1,11 +1,11 @@
-// Generated for the Flash client version WIN63-202504171200-169586654 from the Sulek API (https://sulek.dev/).
+// Generated for the Flash client version WIN63-202505061222-417348326 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Flash;
 
 /// <summary>
-/// Generated for the Flash client version WIN63-202504171200-169586654 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Flash client version WIN63-202505061222-417348326 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class In {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -162,6 +162,7 @@ public static class In {
     public static readonly Identifier FurniListAddOrUpdate = _();
     public static readonly Identifier FurniListInvalidate = _();
     public static readonly Identifier FurniListRemove = _();
+    public static readonly Identifier FurniListRemoveMultiple = _();
     public static readonly Identifier FurniRentOrBuyoutOffer = _();
     public static readonly Identifier FurnitureAliases = _();
     public static readonly Identifier Game2AccountGameStatus = _();

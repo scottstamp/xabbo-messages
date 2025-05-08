@@ -1,11 +1,11 @@
-// Generated for the Flash client version WIN63-202504171200-169586654 from the Sulek API (https://sulek.dev/).
+// Generated for the Flash client version WIN63-202505061222-417348326 from the Sulek API (https://sulek.dev/).
 
 using System.Runtime.CompilerServices;
 
 namespace Xabbo.Messages.Flash;
 
 /// <summary>
-/// Generated for the Flash client version WIN63-202504171200-169586654 from the <a href="https://sulek.dev/">Sulek API</a>.
+/// Generated for the Flash client version WIN63-202505061222-417348326 from the <a href="https://sulek.dev/">Sulek API</a>.
 /// </summary>
 public static class Out {
     private static Identifier _([CallerMemberName]string? name = null)
@@ -192,7 +192,6 @@ public static class Out {
     public static readonly Identifier GetHabboClubExtendOffer = _();
     public static readonly Identifier GetHabboGroupBadges = _();
     public static readonly Identifier GetHabboGroupDetails = _();
-    public static readonly Identifier GetHeightMap = _();
     public static readonly Identifier GetHotLooks = _();
     public static readonly Identifier GetIgnoredUsers = _();
     public static readonly Identifier GetInterstitial = _();
